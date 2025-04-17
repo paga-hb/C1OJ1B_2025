@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option csharp_namespace = "Todo.GrpcCommon";
+
+package todo;
+
+// Service
+
+service TodoItems {
+	// Create
+	rpc Add (TodoItemMessage) returns (TodoItemMessage);
+
+	// Read
+	rpc Get (IdentityMessage) returns (TodoItemMessage);
+	rpc GetAll (EmptyMessage) returns (TodoItemListMessage);
+	rpc GetMany (IdentityListMessage) returns (TodoItemListMessage);
+
+	// Update
+	rpc Update (TodoItemMessage) returns (IdentityMessage);
+
+	// Delete
+	rpc Delete (IdentityMessage) returns (EmptyMessage);
+}
+
+// Messages
+
+message EmptyMessage {
+
+}
+
+message IdentityMessage {
+	int32 id = 1;
+}
+
+message IdentityListMessage {
+	repeated IdentityMessage ids = 1;
+}
+
+message TodoItemMessage {
+	int32 id = 1;
+	string title = 2;
+	string description = 3;
+	bool isDone = 4;
+}
+
+message TodoItemListMessage {
+	repeated TodoItemMessage todoitems = 1;
+}

@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Console App",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Console App",
+      // "preLaunchTask": "build All",
+      "program": "${workspaceFolder}/Todo.GrpcClient/bin/Debug/net9.0/Todo.GrpcClient.dll",
+      // "args": [],
+      "cwd": "${workspaceFolder}/Todo.GrpcClient",
+      // "console": "internalConsole",
+      "console": "integratedTerminal",
+      // "console": "externalTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "gRPC Service",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build gRPC Service",
+      // "preLaunchTask": "build All",
+      "program": "${workspaceFolder}/Todo.GrpcServer/bin/Debug/net9.0/Todo.GrpcServer.dll",
+      // "args": [],
+      "cwd": "${workspaceFolder}/Todo.GrpcServer",
+      // "console": "internalConsole",
+      "console": "integratedTerminal",
+      // "console": "externalTerminal",
+      "stopAtEntry": false
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run Console App + gRPC Service",
+      "configurations": ["Console App", "gRPC Service"]
+    }
+  ]
+}

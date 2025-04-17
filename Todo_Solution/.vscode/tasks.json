@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build Console App",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+          "build",
+          "${workspaceFolder}/Todo.GrpcClient/Todo.GrpcClient.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+      },
+      {
+        "label": "build gRPC Service",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+          "build",
+          "${workspaceFolder}/Todo.GrpcServer/Todo.GrpcServer.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+      },
+      {
+        "label": "build gRPC Common",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+          "build",
+          "${workspaceFolder}/Todo.GrpcCommon/Todo.GrpcCommon.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+      },
+      {
+        "label": "build All",
+        "dependsOn": ["build gRPC Common", "build gRPC Server", "build gRPC Client"],
+        "dependsOrder": "sequence"
+      }
+    ]
+}

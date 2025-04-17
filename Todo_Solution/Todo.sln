@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.GrpcCommon", "Todo.GrpcCommon\Todo.GrpcCommon.csproj", "{924A287F-9FFF-4CC6-9473-78D9A5D254A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.GrpcServer", "Todo.GrpcServer\Todo.GrpcServer.csproj", "{9B4564B2-1D82-4818-BF28-E2ED4E02AC48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.GrpcClient", "Todo.GrpcClient\Todo.GrpcClient.csproj", "{5D4DE140-BAF2-440F-A420-F18B8F745A1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{924A287F-9FFF-4CC6-9473-78D9A5D254A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924A287F-9FFF-4CC6-9473-78D9A5D254A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924A287F-9FFF-4CC6-9473-78D9A5D254A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924A287F-9FFF-4CC6-9473-78D9A5D254A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B4564B2-1D82-4818-BF28-E2ED4E02AC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B4564B2-1D82-4818-BF28-E2ED4E02AC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B4564B2-1D82-4818-BF28-E2ED4E02AC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B4564B2-1D82-4818-BF28-E2ED4E02AC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4DE140-BAF2-440F-A420-F18B8F745A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4DE140-BAF2-440F-A420-F18B8F745A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4DE140-BAF2-440F-A420-F18B8F745A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4DE140-BAF2-440F-A420-F18B8F745A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
