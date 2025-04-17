@@ -53,7 +53,7 @@ När du har installerat ovanstående mjukvara, öppna en terminal och klonda Git
 
 Slutligen, se till att du är i `oopc` foldern i din terminal, och öppna notebooken i Visual Studio Code (VSCode), genom att exekvera nedanstående kommando:
 
-- `code -g workshop/vscode.ipynb:0 .`
+- `code -g notebooks/vscode.ipynb:0 .`
 
 När notebooken öppnar i VSCode, klicka på texten `Select Kernel` (i övre-högra delen av notebooken), och välj `Python Environments... => conda (Python 3.12) .conda/bin/python`.
 
