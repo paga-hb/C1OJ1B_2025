@@ -4,7 +4,7 @@ Denna reository är för kursen i Objektorienterad programmering i C# (VT 2025) 
 
 Kursens schema finns på [Kronox](https://schema.hb.se/setup/jsp/Schema.jsp?startDatum=2025-03-31&intervallTyp=a&intervallAntal=1&sprak=SV&sokMedAND=true&forklaringar=true&resurser=k.C1OJ1B-20251-I17V5-) och kursmaterialet finns på [Canvas](https://hb.instructure.com/courses/9337).
 
-## Delopment Environment Setup
+## Utvecklingsmiljö
 
 Först, se till att du har installerat Visual Studio Code, .NET Sdk, Git, och Miniconda på din egen dator (laptop).
 
