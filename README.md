@@ -40,7 +40,7 @@ Installera sedan nödvändiga Visual Studio Code extensioner genom att exekvera 
 
 ## Kursens GitHub Repository
 
-När du har installerat ovanstående mjukvara, öppna en terminal och klonda GitHub repositoryn [C1OJ1B_2025](https://github.com/paga-hb/C1OJ1B_2025) till din dator, och skapa en virtuell Python miljö:
+När du har installerat ovanstående mjukvara, öppna en terminal och klona GitHub repositoryn [C1OJ1B_2025](https://github.com/paga-hb/C1OJ1B_2025) till din dator, och skapa en virtuell Python miljö:
 
 - `git clone https://github.com/paga-hb/C1OJ1B_2025.git oopc`
 - `cd oopc`
